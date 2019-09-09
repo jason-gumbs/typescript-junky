@@ -8,6 +8,7 @@ var Student = /** @class */ (function () {
     return Student;
 }());
 function greeter(person) {
+    "hello".split()
     return "Hello, " + person.firstName + " " + person.lastName;
 }
 var user = new Student("Jane", "M.", "User");
